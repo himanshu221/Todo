@@ -9,6 +9,8 @@ const todo = mongoose.model('Todo',{
     completed: Boolean
 })
 
+
+
 module.exports = {
     todo
 }
